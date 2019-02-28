@@ -152,7 +152,7 @@ h3, h2 {
 .work {
   position: relative;
   float: left;
-  width: 274px;
+  width: 48%;
   margin: 20px 0 25px;
   overflow: auto;
 }
@@ -164,7 +164,7 @@ h3, h2 {
 .work img {
   width: 100%;
   border: 0 none;
-  height: 200px;
+  height: 300px;
 }
 
 
@@ -240,7 +240,7 @@ input[type=submit] {
   -webkit-animation-duration: 3s;
   animation-name: subBut1;
   animation-duration: 3s;
-  animation-iteration-count: 2;
+  animation-iteration-count: 1;
   animation-delay: 1s;
   animation-timing-function: ease;
 }
@@ -311,16 +311,18 @@ input[type=submit] {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes logobg {
   0%   {background-color: #4aaaa5;}
-  50%  {background-color: #999;}
-  75%  {background-color: #DE8B61;}
+  25%  {background-color: #81bebb;}
+  50% {background-color: #4aaaa5;}
+  75%  {background-color: #81bebb;}
   100% {background-color: #4aaaa5;}
 }
 
 /* Standard syntax */
 @keyframes logobg {
   0%   {background-color: #4aaaa5;}
-  50%  {background-color: #999;}
-  75%  {background-color: #DE8B61;}
+  25%  {background-color: #81bebb;}
+  50% {background-color: #4aaaa5;}
+  75%  {background-color: #81bebb;}
   100% {background-color: #4aaaa5;}
 }
 
@@ -344,7 +346,7 @@ input[type=submit] {
   .work {
     position: relative;
     float: left;
-    width: 274px;
+    width: 47%;
     margin: 20px 0 25px;
     overflow: auto;
   }
